@@ -1,0 +1,38 @@
+# 💰 Personal Finance Manager (C Language)
+
+A simple command-line based finance tracker built in C using doubly linked lists.
+
+## 📌 Features
+
+- ✅ Add new transactions with category and date
+- 🧾 Display all saved transactions
+- ✏️ Edit any transaction by amount, category, and date
+- ❌ Delete specific transactions
+- 💵 View total savings (sum of all transaction amounts)
+- 📊 Calculate total income and total expenses separately
+
+## 📂 Transaction Structure
+
+Each transaction contains:
+- `amount` - Integer value (positive for income, negative for expenses)
+- `category` - Description or type of transaction (e.g., Salary, Rent)
+- `date` - Date of transaction in `YYYY-MM-DD` format
+
+## 🛠 How It Works
+
+The program uses a **doubly linked list** to dynamically store and manage transactions in memory.
+
+No external file storage is used — all data is lost upon exiting.
+
+## 🚀 Getting Started
+
+### 🧰 Requirements
+
+- C Compiler (e.g., GCC)
+
+### ⚙️ Compilation
+
+To compile the program, use:
+
+```bash
+gcc finance_manager.c -o finance_manager
